@@ -1,0 +1,41 @@
+.contact-background {
+    background-image: url('blacksky2.webp'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0; /* Adjust padding as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+.contact-container {
+    background-color: rgba(128, 128, 128, 0.7); /* White color with 80% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-header {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .contact-info a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,24 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: black;
+}
+
+.scroll-container {
+  overflow-y: scroll;
+  height: calc(100vh - 10vh); /* Adjust this value to fit your layout */
+  scroll-behavior: smooth;
+}
+
+.section {
+   /* Adjust the height of each section as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+

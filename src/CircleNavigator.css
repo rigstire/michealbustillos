@@ -1,0 +1,61 @@
+/* CircleNavigator.css */
+
+.circle-navigator {
+    text-align: center;
+    width: 100%;  
+  }
+  
+  .circle-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10px; /* Adjust based on where you want the circles to appear */
+    width: 100%;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .circle.active {
+    background-color: blue;
+  }
+  
+  .component-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .component {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .component-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .circle-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  

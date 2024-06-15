@@ -1,0 +1,25 @@
+/* BackgroundContainer.css */
+
+.AS3background-container {
+    background-image: url('./highqualitylock1.jpg'); /* Replace with your background image file */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+  }
+  
+  .AS3text-container {
+    color:white;
+    font-size: 3vh;
+    text-align: center;
+    justify-content: center;
+    width: 1000px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 2px; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    margin: 0 auto; /* Center the box */
+  }
+  

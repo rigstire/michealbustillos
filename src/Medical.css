@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column; /* Stack containers vertically */
+    align-items: center;
+    width: 100vw;  /* Fill the entire viewport width */
+    background-color: #121313;
+    box-sizing: border-box;
+  }
+  
+  .minfo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  /* Fill the entire width */
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Space between containers */
+    padding: 10px 20px; /* Reduced padding */
+  }
+  
+  .mleft-section, .mright-section {
+    width: 60%;
+    padding-right: 60px;
+    padding-left: 60px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .mheader {
+    font-size: 20px;
+    color: #1E90FF;
+    margin-bottom: 5px;
+    font-weight: 100;
+  }
+  
+  .mtitle {
+    font-size: 33px;
+    margin-bottom: 10px;
+    color: #F0FFFF;
+    margin-top: 0;
+  }
+  
+  .mparagraph {
+    font-size: 25px;
+    color: white;
+  }
+  
+  .mright-image {
+    max-width: 100%;  /* Ensure the image fits within the container's width */
+    height: 1px;  /* Maintain the aspect ratio */
+    border-radius: 10px;  /* Optional: Add rounded corners to the image */
+    object-fit: contain;  /* Ensure the image is fully visible within the dimensions */
+  }
+  
+  /* Reverse the order for the second container */
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column; /* Stack containers vertically */
+    align-items: center;
+    width: 100vw;  /* Fill the entire viewport width */
+    background-color: #121313;
+    box-sizing: border-box;
+    background-color: #212121;
+  }
+  
+  .minfo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;  /* Fill the entire width */
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Space between containers */
+  }
+  
+  .mleft-section, .mright-section {
+    width: 60%;
+    padding-right: 20px;
+    padding-left: 20px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .mheader {
+    font-size: 20px;
+    color: #1E90FF;
+    margin-bottom: 5px;
+    font-weight: 100;
+  }
+  
+  .mtitle {
+    font-size: 33px;
+    margin-bottom: 10px;
+    color: #F0FFFF;
+    margin-top: 0;
+  }
+  
+  .mparagraph {
+    font-size: 25px;
+    color: white;
+  }
+  
+  .mright-image {
+    max-width: 100%;  /* Ensure the image fits within the container's width */
+    height: 460px;  /* Maintain the aspect ratio */
+    border-radius: 10px;  /* Optional: Add rounded corners to the image */
+    object-fit: contain;  /* Ensure the image is fully visible within the dimensions */
+  }
+  
+  /* Reverse the order for the second container */
+  .reverse {
+    flex-direction: row;
+  }
+  

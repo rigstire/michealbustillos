@@ -1,0 +1,88 @@
+  /* BlackBackgroundComponent.css */
+
+  .black-background-container {
+      display: flex;
+      color: white;
+      height: 90vh;
+      box-sizing: border-box;
+      background-image: url('round2sky.webp');
+    }
+    
+    .left-side {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 20px;
+      padding-top: 50px;
+      padding-right: 20px;
+      justify-content: flex-start; /* Align items to the start vertically */
+      align-items: flex-start; /* Align items to the start horizontally */
+    }
+    
+    .text-block {
+      margin-bottom: 20px;
+    }
+    
+    .text-block h2 {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 600;
+    }
+    
+    .text-block h1 {
+      margin: 0;
+      font-size: 60px;
+      font-weight: 900;
+    }
+    
+
+    .text-block p {
+      margin: 10px 0 0px 0; /* Add margin-bottom to ensure space below the paragraph */
+      font-size: 23px;
+      background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+      padding: 20px; /* Padding inside the box */
+      border-radius: 10px; /* Rounded corners */
+      color: white; /* Ensure text color is white for contrast */
+    }
+    
+    .right-side {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .image {
+      width: auto;
+      height: 70%;
+      object-fit: cover; /* Ensure the image covers the entire area */
+      object-fit: contain;
+      padding-left: 30px;
+      padding-right: 70px;
+
+    }
+    .button-container {
+
+      margin-bottom: 100px;
+      margin-left: 30px;
+    }
+    
+    .nav-button {
+      margin-right: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: white;
+      background-color: gray;
+      border: none;
+      border-radius: 50px; /* Fully rounded corners */
+      cursor: pointer;
+    }
+
+    .nav-button.active {
+      background-color: blue;
+    }
+    
+    .nav-button:hover {
+      background-color: darkgray;
+    }

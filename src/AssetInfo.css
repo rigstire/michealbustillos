@@ -1,0 +1,77 @@
+/* LegalInfo.css */
+
+.asset-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Adjust as needed */
+    background-color: black; /* Background color of the container */
+    color: white; /* Text color */
+    padding: 15px 0; /* Padding at the top and bottom */
+    box-sizing: border-box; /* Ensure padding is included in the total height */
+    border-top: 1px solid white; /* Thin white line at the top */
+    border-bottom: 1px solid white; /* Thin white line at the bottom */
+    width: 100%;
+    background-image: url('blacksky2.webp')
+  }
+  
+  .asset-info-padding {
+    width: 100%; 
+    padding: 0 15px; /* Padding on the sides */
+    box-sizing: border-box; /* Ensure padding is included in the total width */
+  }
+  
+  .asset-info-content {
+    position: relative; /* To position the text blocks within the container */
+    text-align: left; /* Left-align text */
+    background-color: black; /* Background color of the inner content */
+    padding: 15px; /* Inner padding */
+    border-radius: 10px; /* Rounded corners for inner content */
+    height: 100%; /* Ensure it takes full height of the container */
+  }
+  
+  .advertisement {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 5px;
+    font-family: Arial, sans-serif; /* Font family for text */
+  }
+  
+  .advertisement h3 {
+    margin: 0;
+    font-size: 38px; /* Larger font size for title */
+    font-weight: 900; /* Bold font weight */
+  }
+  
+  .advertisement p {
+    margin: 5px 0 0 0;
+    font-size: 22px;
+    font-weight: 400; /* Normal font weight */
+  }
+  
+  .top-left {
+    bottom: 10px; /* Position at the top left */
+    left: 250px;
+  }
+  
+  .bottom-right {
+    top: 15px; /* Position at the bottom right */
+    right: 200px;
+  }
+  
+  .contact-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-button:hover {
+    background-color: darkgray;
+  }
